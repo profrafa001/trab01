@@ -17,7 +17,15 @@ Easy Market é um sistema para grandes estoques que facilita o controle do fluxo
 
 Devido a pressa do cotidiano aliada às imensas filas que se formam nos caixas dos supermercados, ir às compras tornou-se algo exaustivo. Baseado neste problema, construímos um sistema denominado Easy Market que ,  ao invés de utilizar o trabalho manual de caixas para leitura de códigos de barra de produtos em supermercados, os clientes teriam seus produtos lidos de forma automática através de sensores na saída do supermercado, todos de uma só vez, ainda no carrinho, gerando uma fatura a ser paga. Isso porque os produtos estariam identificados por etiquetas RFID (identificação por radiofreqüência) onde o sinal seria transmitido por uma antena que  estará conectada a um leitor, sendo responsável por enviar e receber sinais de rádio com as informações que estão nessas etiquetas. O leitor vai converter as ondas de rádio em informações digitais que podem ser repassadas  a um computador.
 Outra  opção de nosso sistema se dará onde o cliente portando um aparelho de celular ou tablet  poderá validar o cadastro na loja e receber relatórios de compras .A tecnologia utilizada nas etiquetaconsiste em um microchip com seu sinal  ligado a uma antena. reduzindo assim , grande parte as filas tornando  o processo de compra mais agradável e menos moroso para o cliente.
-O cliente terá a opção de receber a nota fiscal eletrônica  que seria gerada no ato da compra. Também seria possível escolher forma de pagamento, onde o cliente poderá optar por pagar no cartão de débito ou crédito com cobrança automática pelo aplicativo. Além disso, com as etiquetas RFID  em todos os produtos, é possível fazer o controle do estoque de mercadorias de forma eficiente e precisa gerando relatórios para o   funcionário responsável pelo abastecimento das prateleiras , evitando erros e dispensando balanços mensais manuais e demorados. Também contará com cadastro de clientes , funcionários e de produtos. <br>
+O cliente terá a opção de receber a nota fiscal eletrônica  que seria gerada no ato da compra. Também seria possível escolher forma de pagamento, onde o cliente poderá optar por pagar no cartão de débito ou crédito com cobrança automática pelo aplicativo. Além disso, com as etiquetas RFID  em todos os produtos, é possível fazer o controle do estoque de mercadorias de forma eficiente e precisa gerando relatórios para o   funcionário responsável pelo abastecimento das prateleiras , evitando erros e dispensando balanços mensais manuais e demorados. Também contará com cadastro de clientes , funcionários e de produtos. 
+
+REGRAS DE NEGÓCIO
+
+RN01: O preço de um produto é o resultado da expressão: valor da compra + impostos + porcentagem sobre o custo do negócio + valor da etiqueta RFID + porcentagem de lucro.
+RN02: Um produto não deve ser colocado à venda caso esteja vencido.
+RN03: Cobrança de taxa de entrega.
+RN04: Entregas somente em endereços situados a um raio de 4km do estabelecimento.
+RN05: Cada cliente deve ter somente uma conta. Para evitar duplicidade, o número de CPF deve ser obrigatório no cadastro. <br>
 
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
