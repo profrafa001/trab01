@@ -10,11 +10,10 @@ Rafaela Amorim Pessin: rafaelapessin@outlook.com<br>
 Rebeca Borlini Encarnação: rebecaborlini@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados EasyMarket e motivação da escolha realizada. <br>
 
 Easy Market é um sistema para grandes estoques que facilita o controle do fluxo de mercadorias gerenciando desde quantidade, validade, preço, localização desses no interior do estabelecimento até sua chegada ao cliente. Por utilizar etiquetas RFID para acelerar o processo de pagamento de compras o sistema extingue a necessidade de operadores de caixa. Com a economia gerada pela menor necessidade de contratação de funcionários, esperamos minimizar o impacto dos altos preços das etiquetas sobre os preço dos produtos comercializados.
 
-### 3.MINI-MUNDO Novo<br>
+### 3.MINI-MUNDO<br>
 
 Devido a pressa do cotidiano aliada às imensas filas que se formam nos caixas dos supermercados, ir às compras tornou-se algo exaustivo. Baseado neste problema, construímos um sistema denominado Easy Market que ,  ao invés de utilizar o trabalho manual de caixas para leitura de códigos de barra de produtos em supermercados, os clientes teriam seus produtos lidos de forma automática através de sensores na saída do supermercado, todos de uma só vez, ainda no carrinho, gerando uma fatura a ser paga. Isso porque os produtos estariam identificados por etiquetas RFID (identificação por radiofreqüência) onde o sinal seria transmitido por uma antena que  estará conectada a um leitor, sendo responsável por enviar e receber sinais de rádio com as informações que estão nessas etiquetas. O leitor vai converter as ondas de rádio em informações digitais que podem ser repassadas  a um computador.
 Outra  opção de nosso sistema se dará onde o cliente portando um aparelho de celular ou tablet  poderá validar o cadastro na loja e receber relatórios de compras .A tecnologia utilizada nas etiquetaconsiste em um microchip com seu sinal  ligado a uma antena. reduzindo assim , grande parte as filas tornando  o processo de compra mais agradável e menos moroso para o cliente.
